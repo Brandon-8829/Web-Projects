@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
+	<body>
+	<script src="weatherApp.js"></script>
+	
+	<h2 class="title">
+		Weather Application! 
+	</h2>
+	<div class="search">
+		<input id="myInput" type="text" placeholder="Search for a city" autofocus>
+  		<button id="myButton" onclick="ask()">SUBMIT</button>
+	</div>
+	<br>
+	<div class="location">
+		<h1 class="location-timezone">Timezone</h1>
+	</div>
+	<br>
+	<div class="temperature">
+		<div class="degree-section">
+			<h2 class="temperature-degree">34</h2>
+			<span>C</span>
+		</div>
+	</div>
+	<br>
+	<div class="temperature-desription">
+		<img id="wicon" src="http://openweathermap.org/img/w/10d.png" alt="Weather icon">
+
+		<h1 class="temp-text"></h1>
+	</div>
+
+	<br>
+	<div class="pressure">
+		<h1>Pressure:</h1>
+		<h1 class="pressure-text">[Pressure-num]</h1>
+	</div>
+	<br>
+	<div class="humidity">
+		<h1>Humidity:</h1>
+		<h1 class="humidity-text">[Humidity]</h1>
+	</div>
+	</body>
+</html>
